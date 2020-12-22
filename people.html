@@ -1,154 +1,181 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>PEOPLE | C3L</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-	
-	<!--
-	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-	[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]
-	-->
+    <head>
+        <title>People</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script src="https://kit.fontawesome.com/bb4bf27398.js" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bb4bf27398.js" crossorigin="anonymous"></script>
+    </head>
 
 <body>
-	<div id="header">
-		<div id="menu" class="container">
-			<ul>
-				<li class="current_page_item"><a href="index.html" accesskey="1" title="Home"><i class="fas fa-cubes">&nbsp;C<sup>3</sup> LAB</i></a></li>
-				<li><a href="people.html" accesskey="1" title="People|C3L">People</a></li>
-				<li><a href="projects.html" accesskey="2" title="Projects|C3L">Projects</a></li>
-				<li><a href="publications.html" accesskey="3" title="Publications|C3L">Publications</a></li>
-				<!--<li><a href="courses.html" accesskey="4" title="Courses|C3L">Courses</a></li>
-				<li><a href="news.html" accesskey="5" title="News|C3L">News</a></li>-->
-			</ul>
-		</div>
-	</div>
-	<div id="logo" class="container">
-		<h1><span>People</span></h1>
-		<h4>A special team of researchers at C<sup>3</sup></h4>
-	</div>
 
-    <!-- Faculty -->
-	<div id="featured-wrapper">
-        <div id="featured" class="container">
-            <div class="major">
-                <h3> Faculty </h3>
+    <!-- CONTAINER FOR MAIN CONTENTS -->
+    <div class="container-fluid">
+
+        <!-- NAVIGATION -->
+        <div id="navigation">
+            <div id="nav-items">
+                <ul>
+                    <li><a href="index.html" accesskey="1" title="Home">Home</a></li>
+                    <li><a href="people.html" accesskey="1" title="People">People</a></li>
+                    <li><a href="projects.html" accesskey="2" title="Projects">Projects</a></li>
+                    <li><a href="publications.html" accesskey="3" title="Publications">Publications</a></li>
+                </ul>
             </div>
-            <div class="twocols1">
-                <img class="image-column" src="images/people/dongwhan.png" alt="DK"/></a>
-            </div>
-            <div class="twocols2">
-                <h3> Assistant Professor </h3>
+
+            <!-- LOGO -->
+            <div id="logo">
+                <h1>People</h1>
                 <br/>
-                <p>
-                    <b>Dongwhan Kim</b> <br/>
-                    Ph.D. in Communication <br/>
-                    dongwhan at yonsei.ac.kr <br/>
-                    <span class="hashtags">#ComputationalJournalism #SocialComputing #HCI #HRI </span><br/>
-                </p>
-                <p>
-                    C-cube lab want you (yes, it's you) to join us to form a special team of researchers.
-                </p>
-			</div>
+                <h5>A special team of researchers at C<sup>3</sup> Lab </h5>
+            </div> 
         </div>
-    </div>
 
-    <!-- Master's -->
-    <div id="featured-wrapper">
-        <div id="featured" class="container">
-            <div class="major">
-                <h3> Students </h3>
-            </div>
-            <div class="people-column">
-                <img class="image-column" src="images/pic05.jpg" alt="MS"/></a>
-                <div class="text-column">
-                    <h3>
-                        Your Name
-                    </h3>
-                    <hr class="line-column">
-                    <p>
-                        Master's Student <br/>
-                        email at yonsei.ac.kr <br/>
-                        <span class="hashtags">#research #interest </span><br />
-                    </p>
-                    <p>
-                        Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
-                    </p>
+        <!-- Faculty -->
+        <div id="featured">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h2>Faculty</h2>
                 </div>
             </div>
-            <div class="people-column">
-                <img class="image-column" src="images/pic05.jpg" alt="MS"/></a>
-                <div class="text-column">
-                    <h3>
-                        Your Name
-                    </h3>
-                    <hr class="line-column">
+            <div class="row vspace">
+                <div class="col-1"></div>
+                <div class="col-md">
+                    <img src="images/people/dongwhan.png" class="img-faculty" alt="DK"/></a>
+                </div>
+                <div class="col-md left-align">
                     <p>
-                        Master's Student <br/>
-                        email at yonsei.ac.kr <br/>
-                        <span class="hashtags">#research #interest </span><br />
+                        <h5>Assistant Professor</h5>
                     </p>
                     <p>
-                        Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
+                        <h4><b>Dongwhan Kim</b></h4> <br/>
+                        Ph.D. in Communication <br/>
+                        dongwhan at yonsei.ac.kr <br/>
+                        <span class="hashtags">#ComputationalJournalism #SocialComputing #HCI #HRI </span><br/>
+                    </p>
+                    <p>
+                        C-cube lab want you (yes, it's you) to join us to form a special team of researchers.
                     </p>
                 </div>
-			</div>
-            <div class="people-column">
-                <img class="image-column" src="images/pic05.jpg" alt="MS"/></a>
-                <div class="text-column">
-                    <h3>
-                        Your Name
-                    </h3>
-                    <hr class="line-column">
-                    <p>
-                        Master's Student <br/>
-                        email at yonsei.ac.kr <br/>
-                        <span class="hashtags">#research #interest </span><br />
-                    </p>
-                    <p>
-                        Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
-                    </p>
-                </div>
-			</div>
-        </div>
-    </div>
-        
-
-    <!-- Alumni -->
-    <div id="featured-wrapper">
-        <div id="featured" class="container">
-            <div class="major">
-                <h3> Alumni </h3>
-            </div>
-            <div class="people-column">
-                <img class="image-column" src="images/pic05.jpg" alt="MS"/></a>
-                <div class="text-column">
-                    <h3>
-                        Your Name
-                    </h3>
-                    <hr class="line-column">
-                    <p>
-                        Master's Student <br/>
-                        email at yonsei.ac.kr <br/>
-                        <span class="hashtags">#research #interest </span><br />
-                    </p>
-                    <p>
-                        Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
-                    </p>
-                </div>
+                <div class="col-1"></div>
             </div>
         </div>
-    </div>
 
-	<div id="copyright" class="container">
-		<p>&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</p>
-	</div>
+        <!-- Master's Students -->
+        <div id="featured">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h2>Students</h2>
+                </div>
+            </div>
+            <div class="row vspace">
+                <div class="col-1"></div>
+                <div class="col-md left-align">
+                    <img src="images/people/student1.png" class="img-students" alt=""/></a>
+                    <div class="text-column">
+                        <h3>
+                            Your Name
+                        </h3>
+                        <hr class="line-column">
+                        <p>
+                            Master's Student <br/>
+                            email at yonsei.ac.kr <br/>
+                            <span class="hashtags">#research #interest </span><br />
+                        </p>
+                        <p>
+                            Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md left-align">
+                    <img src="images/people/student2.png" class="img-students" alt=""/></a>
+                    <div class="text-column">
+                        <h3>
+                            Your Name
+                        </h3>
+                        <hr class="line-column">
+                        <p>
+                            Master's Student <br/>
+                            email at yonsei.ac.kr <br/>
+                            <span class="hashtags">#research #interest </span><br />
+                        </p>
+                        <p>
+                            Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md left-align">
+                    <img src="images/people/student3.png" class="img-students" alt=""/></a>
+                    <div class="text-column">
+                        <h3>
+                            Your Name
+                        </h3>
+                        <hr class="line-column">
+                        <p>
+                            Master's Student <br/>
+                            email at yonsei.ac.kr <br/>
+                            <span class="hashtags">#research #interest </span><br />
+                        </p>
+                        <p>
+                            Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+        <!-- Alumni -->
+        <div id="featured">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h2>Alumni</h2>
+                </div>
+            </div>
+            <div class="row vspace">
+                <div class="col-1"></div>
+                <div class="col-md left-align">
+                    <img src="images/people/alumni1.png" class="img-students" alt=""/></a>
+                    <div class="text-column">
+                        <h3>
+                            Your Name
+                        </h3>
+                        <hr class="line-column">
+                        <p>
+                            Master's Student <br/>
+                            email at yonsei.ac.kr <br/>
+                            <span class="hashtags">#research #interest </span><br />
+                        </p>
+                        <p>
+                            Brief explanation on you, your research, and your experience in c-cube lab. Kind words, please :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md left-align"></div>
+                <div class="col-md left-align"></div>
+                
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <p>&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</p>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- End of Container -->
 </body>
 </html>

@@ -1,0 +1,201 @@
+/**************************************************/
+/* CSS by DK **************************************/
+/**************************************************/
+
+body
+{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, span, p, a
+{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #3f3f3f;
+}
+
+h3
+{
+    font-weight: 700 !important;
+}
+
+.fas
+{
+	display: inline-block;
+	padding-bottom: 0.25em;
+}
+/**************************************************/
+/* NAVIGATION *************************************/
+/**************************************************/
+
+#navigation
+{
+    background: #3f3f3f;
+}
+
+#nav-items ul
+{
+    margin-top: 0;
+    padding: 1em 0em;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#nav-items li
+{
+    display: inline-block;
+}
+
+#nav-items a
+{
+    display: block;
+    padding: 1em 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+}
+
+
+/**************************************************/
+/* LOGO *******************************************/
+/**************************************************/
+
+#logo
+{
+    padding: 4em 3em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 180%;
+    background: #F6F4F3;
+    color: #3f3f3f;
+    
+}
+
+#logo h1
+{
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+#logo h5
+{
+    font-weight: 200;
+    font-size: 1.25em;
+}
+
+#logo span
+{
+    padding: 0em 0em 0em 0.5em;
+}
+
+/**************************************************/
+/* HEADER *****************************************/
+/**************************************************/
+
+#header
+{
+    background: #F6F4F3;
+    padding: 4em 3em;
+    border-top: 1px solid #E5E5E5;
+}
+
+.byline
+{
+    font-weight: 200;
+    font-size: 1em;
+    font-style: italic;
+    
+}
+
+.inner
+{
+    padding: 1em 0em;
+}
+
+.text-column
+{
+    padding: 1em;
+}
+
+/**************************************************/
+/* IMAGE ******************************************/
+/**************************************************/
+
+.img-header
+{
+    padding: 0.5em;
+    max-width: 80%;
+    height: auto;
+    min-width: 250px;
+}
+
+.img-students, .img-faculty
+{
+    padding: 1em;
+    max-width: 90%;
+    height: auto;
+}
+
+.img-faculty
+{
+    max-width: 70%;
+    min-width: 150px;
+}
+
+/**************************************************/
+/* FEATURED ***************************************/
+/**************************************************/
+
+#featured
+{
+    padding: 4em 3em;
+    text-align: center;
+}
+
+#featured h2
+{
+    font-weight: 900;
+    font-size: 1.75em;
+    text-align: left;
+}
+
+.vspace
+{
+    padding-top: 2em;
+}
+
+.title
+{
+    padding: 0.5em;
+}
+
+.left-align
+{
+    text-align: left;
+    line-height: 180%;
+}
+
+/**************************************************/
+/* UPDATES ****************************************/
+/**************************************************/
+
+#updates
+{
+    padding: 6em 3em 3em 3em;
+    text-align: center;
+    background: #F6F4F3;
+}
+
+/**************************************************/
+/* FOOTER ****************************************/
+/**************************************************/
+
+#footer
+{
+    padding: 4em 3em;
+    text-align: center;
+    background: #F6F4F3;
+}
