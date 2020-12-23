@@ -14,74 +14,86 @@
 <body>
 
     <!-- CONTAINER FOR MAIN CONTENTS -->
-    <div class="container-fluid">
+    <div class="container">
 
         <!-- NAVIGATION -->
-        <div id="navigation">
-            <div id="nav-items">
-                <ul>
-                    <li><a href="index.html" accesskey="1" title="Home">Home</a></li>
-                    <li><a href="people.html" accesskey="1" title="People">People</a></li>
-                    <li><a href="projects.html" accesskey="2" title="Projects">Projects</a></li>
-                    <li><a href="publications.html" accesskey="3" title="Publications">Publications</a></li>
+        <nav class="navbar navbar-expand-md navbar-dark bg-darkgray navbar-padding">
+            <div class="container-fluid">
+              <a class="navbar-brand padding-left" href="index.html"><i class="fas fa-cubes"></i> C<sup>3</sup> LAB</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="people.html">People</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="publications.html">Publications</a>
+                  </li>
                 </ul>
+              </div>
             </div>
+          </nav>
 
-            <!-- LOGO -->
-            <div id="logo">
-                <h1>People</h1>
-                <br/>
-                <h5>A special team of researchers at C<sup>3</sup> Lab </h5>
-            </div> 
-        </div>
+        <!-- LOGO -->
+        <div id="logo">
+            <h1>People</h1>
+            <h5>A Team of Special Researchers at C<sup>3</sup> Lab</h5>
+        </div> 
 
         <!-- Faculty -->
-        <div id="featured">
+        <div id="main">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h2>Faculty</h2>
+                <div class="col-md">
+                    <h3>Professor</h3>
                 </div>
             </div>
             <div class="row vspace">
                 <div class="col-1"></div>
                 <div class="col-md">
-                    <img src="images/people/dongwhan.png" class="img-faculty" alt="DK"/></a>
+                    <img src="images/people/dongwhan.png" class="img-professor" alt="DK"/></a>
                 </div>
                 <div class="col-md left-align">
-                    <p>
-                        <h5>Assistant Professor</h5>
-                    </p>
-                    <p>
-                        <h4><b>Dongwhan Kim</b></h4> <br/>
+                    <p class="vspace">
+                        <h5 class="title">Dongwhan Kim</h5>
                         Ph.D. in Communication <br/>
                         dongwhan at yonsei.ac.kr <br/>
                         <span class="hashtags">#ComputationalJournalism #SocialComputing #HCI #HRI </span><br/>
                     </p>
                     <p>
-                        C-cube lab want you (yes, it's you) to join us to form a special team of researchers.
+                        C-Cube lab want you (yes, it's you!) to join us to form a special team of researchers.
                     </p>
                 </div>
                 <div class="col-1"></div>
             </div>
         </div>
+        
+        <!-- Horizontal Line -->
+        <div>
+            <hr class="line-column">
+        </div>
 
         <!-- Master's Students -->
-        <div id="featured">
+        <div id="main">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h2>Students</h2>
+                <div class="col-md">
+                    <h3>Students</h3>
                 </div>
             </div>
             <div class="row vspace">
-                <div class="col-1"></div>
                 <div class="col-md left-align">
                     <img src="images/people/student1.png" class="img-students" alt=""/></a>
                     <div class="text-column">
-                        <h3>
+                        <h5 class="title">
                             Your Name
-                        </h3>
+                        </h5>
                         <hr class="line-column">
                         <p>
                             Master's Student <br/>
@@ -96,9 +108,9 @@
                 <div class="col-md left-align">
                     <img src="images/people/student2.png" class="img-students" alt=""/></a>
                     <div class="text-column">
-                        <h3>
+                        <h5 class="title">
                             Your Name
-                        </h3>
+                        </h5>
                         <hr class="line-column">
                         <p>
                             Master's Student <br/>
@@ -113,9 +125,9 @@
                 <div class="col-md left-align">
                     <img src="images/people/student3.png" class="img-students" alt=""/></a>
                     <div class="text-column">
-                        <h3>
+                        <h5 class="title">
                             Your Name
-                        </h3>
+                        </h5>
                         <hr class="line-column">
                         <p>
                             Master's Student <br/>
@@ -127,26 +139,28 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-1"></div>
             </div>
         </div>
 
+        <!-- Horizontal Line -->
+        <div>
+            <hr class="line-column">
+        </div>
+
         <!-- Alumni -->
-        <div id="featured">
+        <div id="main">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h2>Alumni</h2>
+                <div class="col-md">
+                    <h3>Alumni</h3>
                 </div>
             </div>
             <div class="row vspace">
-                <div class="col-1"></div>
                 <div class="col-md left-align">
                     <img src="images/people/alumni1.png" class="img-students" alt=""/></a>
                     <div class="text-column">
-                        <h3>
+                        <h5 class="title">
                             Your Name
-                        </h3>
+                        </h5>
                         <hr class="line-column">
                         <p>
                             Master's Student <br/>
@@ -160,8 +174,6 @@
                 </div>
                 <div class="col-md left-align"></div>
                 <div class="col-md left-align"></div>
-                
-                <div class="col-1"></div>
             </div>
         </div>
 
@@ -169,9 +181,8 @@
         <!-- FOOTER -->
         <div id="footer">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <p>&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</p>
+                <div class="col-md">
+                    <span class="copy">&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</span>
                 </div>
             </div>
         </div>

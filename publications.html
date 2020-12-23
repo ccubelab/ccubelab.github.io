@@ -14,32 +14,44 @@
 <body>
 
     <!-- CONTAINER FOR MAIN CONTENTS -->
-    <div class="container-fluid">
+    <div class="container">
 
         <!-- NAVIGATION -->
-        <div id="navigation">
-            <div id="nav-items">
-                <ul>
-                    <li><a href="index.html" accesskey="1" title="Home">Home</a></li>
-                    <li><a href="people.html" accesskey="1" title="People">People</a></li>
-                    <li><a href="projects.html" accesskey="2" title="Projects">Projects</a></li>
-                    <li><a href="publications.html" accesskey="3" title="Publications">Publications</a></li>
+        <nav class="navbar navbar-expand-md navbar-dark bg-darkgray navbar-padding">
+            <div class="container-fluid">
+              <a class="navbar-brand padding-left" href="index.html"><i class="fas fa-cubes"></i> C<sup>3</sup> LAB</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="people.html">People</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="publications.html">Publications</a>
+                  </li>
                 </ul>
+              </div>
             </div>
+          </nav>
 
-            <!-- LOGO -->
-            <div id="logo">
-                <h1>Publications</h1>
-                <br/>
-                <h5>Publications from C<sup>3</sup> Lab</h5>
-            </div> 
-        </div>
+        <!-- LOGO -->
+        <div id="logo">
+            <h1>Publications</h1>
+            <h5>Publications from C<sup>3</sup> Lab</h5>
+        </div> 
 
-
-		<div id="featured">
+        <!-- MAIN -->
+		<div id="main">
 			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-md">
+    			<div class="col-md">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor consequat tellus, efficitur volutpat odio congue id. In sapien tellus, aliquet eu auctor nec, mollis in sem. Fusce a feugiat mauris, ac tincidunt ante. Ut justo sapien, scelerisque sit amet sodales quis, tincidunt vel risus. Pellentesque maximus pretium scelerisque. Mauris pretium est suscipit, cursus nunc ac, rutrum magna. Cras purus augue, sodales id euismod sit amet, accumsan ac tortor. Maecenas neque augue, imperdiet in sem mattis, tincidunt tincidunt eros. Quisque mi diam, egestas sit amet tortor nec, finibus tincidunt ligula. Phasellus nec enim ac ante interdum pulvinar venenatis eu arcu. Donec condimentum mauris non tortor placerat, quis facilisis sem tempus. Pellentesque vestibulum elit sed nunc tincidunt, nec lobortis sem euismod. Curabitur sollicitudin aliquam ipsum, vitae ultrices est pharetra sit amet. Cras dignissim lorem vitae metus bibendum, id facilisis est venenatis.
 					</p>
@@ -50,16 +62,14 @@
 						Etiam vehicula semper tortor, euismod bibendum dui pretium quis. Aenean tempor nibh id pharetra mattis. Nullam laoreet ex id mollis ornare. Nam quis arcu id nulla mattis semper at eu ipsum. Maecenas gravida pulvinar vulputate. Nulla fermentum metus nec massa accumsan ultrices. Duis ac augue sodales, dapibus neque ut, lacinia urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dignissim volutpat velit in finibus. Vivamus a orci iaculis, hendrerit ipsum quis, semper lectus. Nam maximus nec lectus et volutpat. Sed at tempus dui. Nam posuere, libero et faucibus aliquam, eros magna semper tortor, eget mattis quam metus ut ligula. Donec sit amet leo ultrices, porta nisi ac, blandit massa.
 					</p>
 				</div>
-				<div class="col-1"></div>
 			</div>
 		</div>
 
         <!-- FOOTER -->
         <div id="footer">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <p>&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</p>
+                <div class="col-md">
+                    <span class="copy">&copy; 2020 Computatioal Communication and Creative Research Lab at Yonsei University</span>
                 </div>
             </div>
         </div>

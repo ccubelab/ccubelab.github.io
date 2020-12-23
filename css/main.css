@@ -13,9 +13,56 @@ h1, h2, h3, h4, h5, span, p, a
     color: #3f3f3f;
 }
 
-h3
+.title
 {
     font-weight: 700 !important;
+}
+
+.byline
+{
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.text-column
+{
+    padding: 1em;
+}
+
+.justify
+{
+    text-align:justify;
+}
+
+.left-align
+{
+    text-align: left;
+    line-height: 180%;
+}
+
+.center-align
+{
+    text-align: center !important;
+}
+
+.vspace
+{
+    padding-top: 2em;
+}
+
+.padding-bottom
+{
+    padding-bottom: 2em;
+}
+
+.padding-right
+{
+    padding-right: 0.5em;
+}
+
+.padding-left
+{
+    padding-left: 0.5em;
 }
 
 .fas
@@ -23,41 +70,50 @@ h3
 	display: inline-block;
 	padding-bottom: 0.25em;
 }
+
+
+/**************************************************/
+/* IMAGE ******************************************/
+/**************************************************/
+
+.img-professor, .img-students
+{
+    padding: 1em;
+    max-width: 90%;
+    height: auto;
+    max-height: 270px;
+}
+
+.bg-darkgray
+{
+    background: #3f3f3f !important;
+}
+
 /**************************************************/
 /* NAVIGATION *************************************/
 /**************************************************/
 
-#navigation
+#navbar
 {
-    background: #3f3f3f;
+    background: #3f3f3f !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
-#nav-items ul
+.navbar-padding
 {
-    margin-top: 0;
-    padding: 1em 0em;
-    list-style: none;
-    line-height: normal;
-    text-align: center;
+    padding: 2em 1em !important;
 }
 
-#nav-items li
-{
-    display: inline-block;
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
-#nav-items a
+.navbar a 
 {
-    display: block;
-    padding: 1em 1.5em;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 700;
-    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
-
 
 /**************************************************/
 /* LOGO *******************************************/
@@ -71,19 +127,18 @@ h3
     line-height: 180%;
     background: #F6F4F3;
     color: #3f3f3f;
-    
 }
 
 #logo h1
 {
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 #logo h5
 {
     font-weight: 200;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 #logo span
@@ -92,90 +147,13 @@ h3
 }
 
 /**************************************************/
-/* HEADER *****************************************/
+/* MAIN *******************************************/
 /**************************************************/
 
-#header
-{
-    background: #F6F4F3;
-    padding: 4em 3em;
-    border-top: 1px solid #E5E5E5;
-}
-
-.byline
-{
-    font-weight: 200;
-    font-size: 1em;
-    font-style: italic;
-    
-}
-
-.inner
-{
-    padding: 1em 0em;
-}
-
-.text-column
-{
-    padding: 1em;
-}
-
-/**************************************************/
-/* IMAGE ******************************************/
-/**************************************************/
-
-.img-header
-{
-    padding: 0.5em;
-    max-width: 80%;
-    height: auto;
-    min-width: 250px;
-}
-
-.img-students, .img-faculty
-{
-    padding: 1em;
-    max-width: 90%;
-    height: auto;
-}
-
-.img-faculty
-{
-    max-width: 70%;
-    min-width: 150px;
-}
-
-/**************************************************/
-/* FEATURED ***************************************/
-/**************************************************/
-
-#featured
+#main
 {
     padding: 4em 3em;
     text-align: center;
-}
-
-#featured h2
-{
-    font-weight: 900;
-    font-size: 1.75em;
-    text-align: left;
-}
-
-.vspace
-{
-    padding-top: 2em;
-}
-
-.title
-{
-    padding: 0.5em;
-}
-
-.left-align
-{
-    text-align: left;
-    line-height: 180%;
 }
 
 /**************************************************/
@@ -198,4 +176,18 @@ h3
     padding: 4em 3em;
     text-align: center;
     background: #F6F4F3;
+}
+
+.copy
+{
+    font-weight: 100;
+}
+
+/**************************************************/
+/* HASHTAGS ***************************************/
+/**************************************************/
+
+.hashtags
+{
+    color: #020015
 }
