@@ -4,24 +4,23 @@
 
 body
 {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, h3, h4, h5, span, p, a
 {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #3f3f3f;
 }
 
 .title
 {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 .byline
 {
     font-weight: 200;
-    font-size: 1em;
 }
 
 .text-column
@@ -88,7 +87,7 @@ h1, h2, h3, h4, h5, span, p, a
 
 .bg-darkgray
 {
-    background: #3f3f3f !important;
+    background: #3f3f3f;
 }
 
 /**************************************************/
@@ -97,12 +96,12 @@ h1, h2, h3, h4, h5, span, p, a
 
 .navbar-padding
 {
-    padding: 1.5em 0.5em !important;
+    padding: 1.5em 0.5em;
 }
 
 .navbar a 
 {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
